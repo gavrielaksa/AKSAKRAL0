@@ -299,6 +299,43 @@ section{
     color:var(--black);
 }
 
+.menu2 .row .content{
+    flex:1 1 45rem;
+    padding:2rem;
+}
+
+.menu2 .row .content h3{
+    font-size: 3rem;
+    color:#fff;
+}
+
+.menu2 .row .content p{
+    font-size: 1.6rem;
+    color:#ccc;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+
+.menu2 .box-container .box .price{
+    color: #fff;
+    font-size: 2.5rem;
+    padding:.5rem 0;
+}
+
+.menu2 .box-container .box .price span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.menu2 .box-container .box:hover{
+    background:#fff;
+}
+
+.menu2 .box-container .box:hover > *{
+    color:var(--black);
+}
+
 .products .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
